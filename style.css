@@ -1,0 +1,219 @@
+body {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#deefff+0,98bede+100;Blue+3D+%2310 */
+   background: #deefff; /* Old browsers */
+   background: -moz-radial-gradient(center, ellipse cover, #deefff 0%, #98bede 100%); /* FF3.6-15 */
+   background: -webkit-radial-gradient(center, ellipse cover, #deefff 0%,#98bede 100%); /* Chrome10-25,Safari5.1-6 */
+   background: radial-gradient(ellipse at center, #deefff 0%,#98bede 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#deefff', endColorstr='#98bede',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    
+     
+     color: rgb(31,43,86);
+    font-family: Raleway, Merriweather, fantasy;
+     font-weight: bold;
+     font-size: 18px;
+     font-style: bold;
+     text-transform: capitalize;
+     background-image: url("https://cdn.pixabay.com/photo/2017/08/27/23/11/background-2687925_960_720.jpg");
+     background-repeat: no-repeat;
+     background-position: left top;
+     margin: 5rem;
+     padding: 1rem 1rem;
+     border: 1px solid black;
+     border-radius: 30px;
+     width: auto;
+     float: none;
+     box-shadow: 3px 5px 20px black;
+     color: white;
+     font-weight: bold;
+     text-transformation: uppercase;
+     letter-spacking: 2px;
+     font-size: 1.2rem;
+   }
+     
+   .center {
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 80%;
+       length: 100%;
+   }  
+   
+   
+   
+   h1 {
+     font-family: Merriweather;
+     font-size: 7rem;
+     font-weight: 700;
+     letter-spacing: -.5rem;
+     font-style: bold;
+     font-stretch: regular;
+     text-align: left;
+     color: white;
+     padding: 10px 0px 10px 10px;
+     }
+   
+   
+   
+   h2{
+     font-family: Raleway;
+     font-size: 5rem;
+     font-weight: light;
+     font-style: normal;
+     font-stretch: regular;
+     text-align: center;
+     color: black;
+     padding: 10px 0px 10px 10px;
+   }
+   
+     
+     a{
+       color: yellow;
+       text-decoration: none;
+     }
+     a:hover{
+     text-decoration: underline;
+     color: red;
+   }
+   
+   p{
+     line-height: 1.5;
+     letter-spacing: 0.5px;
+     word-spacing:5px;
+     text-align: left;
+     text-indent: 50px;
+   }
+   
+   p:first-line{
+     text-transform: uppercase;
+   }
+   
+   p:first-letter{
+     color: red;
+     font-size:30px;
+   }
+   
+   a:visited{
+     color: green;
+   }
+   
+   ul{
+     list-style-type: none;
+     list-style-type: disc;
+     list-style-type: square;
+     list-style-type: circle;
+   }
+   
+   ol{
+    list-style-type: decimal;
+    list-style-type: decimal-leading-zero;
+    list-style-type: lower-alpha;
+    list-style-type: upper-alpha;
+    list-style-type: upper-roman;
+    list-style-type: lower-roman;
+   }
+   
+   ol ol {
+     list-style-type: lower-roman;
+     list-stule-position: inside;
+   }
+   
+   .even {
+     background: white;
+     color: black;
+   }
+   
+   table {
+     cursor: pointer;
+   /*   boarder-spacing: 10px 20px; 
+     border-collapse: 5px; */
+   /*    float: right; */
+   }
+   
+   tr:hover {
+     oppacity: .5;
+   }
+   
+   td:hover {
+     background: #696D7D;
+   }
+   
+   label {
+     display: block;
+     clear: both;
+     width: 200px;
+     float: left;
+     text-align: right;
+   }
+   
+   input {
+   /*   display: block; */
+     width:200px;
+     float: right;
+     text-allign: left;
+   }
+   
+   textarea {
+     clear: both;
+     display: block;
+     width: 100px;
+     height: 100px;
+   }
+   
+   input[type="submit"] {
+     background: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b7deed+0,71ceef+50,21b4e2+51,b7deed+100;Shape+1+Style */
+   background: #b7deed; /* Old browsers */
+   background: -moz-linear-gradient(45deg, #b7deed 0%, #71ceef 50%, #21b4e2 51%, #b7deed 100%); /* FF3.6-15 */
+   background: -webkit-linear-gradient(45deg, #b7deed 0%,#71ceef 50%,#21b4e2 51%,#b7deed 100%); /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(45deg, #b7deed 0%,#71ceef 50%,#21b4e2 51%,#b7deed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */;
+     margin: 1rem;
+     padding: 1rem 2rem;
+     border: 3px solid #a0f;
+     border-radius: 30px;
+     width: auto;
+     float: none;
+     box-shadow: 3px 5px 20px white;
+     color: white;
+     font-weight: bold;
+     text-transformation: uppercase;
+     letter-spacking: 2px;
+     font-size: 1.2rem;
+     transition: 1s all;
+   }
+   
+   input[type="submit"]:hover {
+     opacity: 0.8;
+     cursor: pointer;
+     transform: scale(2);
+     transform: translate(100px, 100px);
+   }
+   
+   img.large{
+     font-size: 100px;
+     width: 400px;
+   }
+   img.medium{
+     font-size: 50px;
+     width: 200px;
+   }
+   img.small{
+     font-size: 10px;
+     width: 200px;
+   }
+   img{
+     display: block;
+   }
+   img.left{
+    text-align: left;
+    float: left;
+   }
+   .right{
+     text-align: right;
+     float: right;
+   }
+   .center{
+     text-align: center;
+     margin: 0 auto;
+     clear: both;
+   } 
+   
